@@ -1,0 +1,33 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+body header nav {
+  background-color: white;
+  padding: 20px !important;
+}
+body header nav .navbar-brand {
+  background-color: transparent;
+  padding: 15px;
+  border: 1px solid black;
+  letter-spacing: 3px;
+}
+body header .headerDiv .headerBg {
+  background: url(../img/84770f_c22bf458a8a548cfbf5866ee441b3f4d~mv2_d_3868_2491_s_4_2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 701px;
+}
+body .sec1 {
+  padding: 80px;
+}
+body .sec1 .sec1Bg1 {
+  background-image: url(../img/sec11.webp);
+  background-repeat: no-repeat;
+}
+body .sec1 p {
+  line-height: 25px;
+}
+body .sec1 h4 {
+  font-style: italic;
+  font-size: 85px;
+}

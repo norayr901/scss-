@@ -1,0 +1,104 @@
+$width: 100%;
+$bgwhite: white; 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    header {
+        nav {
+            background-color: $bgwhite;
+            padding: 20px !important;
+            .navbar-brand{
+                background-color: transparent;
+                padding: 15px;
+                border: 1px solid black;
+                letter-spacing: 3px;   
+            }
+        }
+        .headerDiv {
+                .headerBg {
+                background: url(../img/84770f_c22bf458a8a548cfbf5866ee441b3f4d~mv2_d_3868_2491_s_4_2.webp);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 701px;
+            }
+        }
+    }
+    .sec1 {
+        padding: 80px;
+        .sec1Bg1{
+            background-image: url(../img/sec11.webp);
+            background-repeat: no-repeat;
+        }
+        .sec1Bg2 {
+            background-image: url(../img/sec2.webp);
+            background-repeat: no-repeat;
+        }
+        .sec1Bg3 {
+            background-image: url(../img/f61af8_5ab06124070740b98f37242621e367ec~mv2.webp);
+            background-repeat: no-repeat;
+        }
+        p {
+            line-height: 25px;
+        }
+        h4 {
+            font-style: italic;
+            font-size: 85px;
+        }
+        a {
+            color: black;
+            margin-top: 160px;
+
+        }
+    }
+    .sec2 {
+        background: url(../img/f61af8_2658b84de2e74e7cba2c3483652ded29~mv2_d_4627_3085_s_4_2\ \(1\).webp);
+        background-attachment: fixed;
+        height: 647px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0px;
+    }
+    .sec3 {
+        margin-top: 140px;
+        span {
+            font-family: sans-serif;
+            letter-spacing: 5px;
+            font-size: 22px;
+        }
+        h4 {
+            font-size: 60px;
+            font-style: italic;
+        }
+        h6 {
+            font-size: 27px;
+            font-family: sans-serif;
+            line-height: 1.5;
+        }
+    }
+    footer {
+        margin-top: 100px;
+        padding: 25px 0px;
+        background-color: rgb(39, 39, 39);
+        span {
+            color: white;
+            font-style: italic;
+            font-size: 45px;
+        }
+        p {
+            font-family: sans-serif;
+            line-height: 2;
+            font-size: 18px;
+            margin-top: 6px;
+        }
+        ul {
+            display: flex;
+            margin-top: 100px;
+            li {
+                display: inline-block;
+                margin: 5px;
+                svg {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}

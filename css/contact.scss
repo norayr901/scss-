@@ -1,0 +1,50 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    nav {
+        background-color: white;
+        padding: 20px !important;
+        .navbar-brand{
+            background-color: transparent;
+            padding: 15px;
+            border: 1px solid black;
+            letter-spacing: 3px;
+        }
+    }
+    .sec1 {
+        margin-top: 200px;
+        .col {
+            span {
+                font-size: 80px;
+                font-style: italic;
+            }
+            
+        }
+    }
+    footer {
+        margin-top: 100px;
+        padding: 25px 0px;
+        background-color: rgb(39, 39, 39);
+        span {
+            color: white;
+            font-style: italic;
+            font-size: 45px;
+        }
+        p {
+            font-family: sans-serif;
+            line-height: 2;
+            font-size: 18px;
+            margin-top: 6px;
+        }
+        ul {
+            display: flex;
+            margin-top: 100px;
+            li {
+                display: inline-block;
+                margin: 5px;
+                svg {
+                    width: 20px;
+                }
+            }
+        }
+    }
+}

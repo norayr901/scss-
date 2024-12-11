@@ -1,0 +1,10 @@
+nav {
+    background-color: $bgwhite;
+    padding: 20px !important;
+    .navbar-brand{
+        background-color: transparent;
+        padding: 15px;
+        border: 1px solid black;
+        letter-spacing: 3px;   
+    }
+}

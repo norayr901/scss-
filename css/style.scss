@@ -1,0 +1,39 @@
+$width: 100%;
+$bgwhite: white; 
+body {
+    font-family: 'Times New Roman', Times, serif;
+    header {
+        nav {
+            background-color: white;
+            padding: 20px !important;
+            .navbar-brand{
+                background-color: transparent;
+                padding: 15px;
+                border: 1px solid black;
+                letter-spacing: 3px;   
+            }
+        }
+        .headerDiv {
+                .headerBg {
+                background: url(../img/84770f_c22bf458a8a548cfbf5866ee441b3f4d~mv2_d_3868_2491_s_4_2.webp);
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 701px;
+            }
+        }
+    }
+    .sec1 {
+        padding: 80px;
+        .sec1Bg1{
+            background-image: url(../img/sec11.webp);
+            background-repeat: no-repeat;
+        }
+        p {
+            line-height: 25px;
+        }
+        h4 {
+            font-style: italic;
+            font-size: 85px;
+        }
+    }
+}
